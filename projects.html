@@ -12,49 +12,68 @@
     <header>
     <h1 class="text-white pl-4 pr-4"> Brian Riley Blacksmith</h1>
     </header>
-    <nav class="navbar navbar-expand-md navbar-light bg-light">
+  <div class="row">
+    <nav class="navbar-custom navbar-expand-md col-2 pl-5 pr-5">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
+            <ul class="nav flex-column mr-auto">
             <li class="nav-item">
-                <a class="nav-link" href="index.html">
-                Home
+                <a class="navbar-brand" href="index.html">
+                <h4>Home</h4>
                 </a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="about.html">
-                    About
+                <a class="navbar-brand" href="about.html">
+                   <h4>About</h4> 
                     </a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="projects.html">
-                    Shop
+                <a class="navbar-brand" href="projects.html">
+                  <h4>Shop</h4>  
                     </a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="contact.html">
-                    Contact
+                <a class="navbar-brand" href="contact.html">
+                  <h4>Contact</h4> 
                 </a>
                 </li>
             </ul>
         </div>
     </nav>
-    <main>
-        <div class="row" id="gallery" data-toggle="modal" data-target="#exampleModal">
-            <div class="col-12 col-sm-6 col-lg-3 mb-3">
-                <img class="w-100" src="images/lamp.jpg?text=one" alt="lamp" data-target="#carouselExample" data-slide-to="0"/>       
-            </div>
-            <div class="col-12 col-sm-6 col-lg-3 mb-3">
-                <img class="w-100" src="images/candle%20holder.jpg?text=two" alt="candle holder" data-target="#carouselExample" data-slide-to="1"/>
-            </div>
-            <div class="col-12 col-sm-6 col-lg-3 mb-3">
-                <img class="w-100" src="images/table.jpg?text=three" alt="table" data-target="#carouselExample" data-slide-to="2"/>
-            </div>
-            <div class="col-12 col-sm-6 col-lg-3 mb-3">
-                <img class="w-100" src="images/thumbnail_Image%20(1).jpg?text=four" alt="image1" data-target="#carouselExample" data-slide-to="3"/>
-            </div>
+      
+    
+
+    <main class="col-10">
+        <div class="row">
+            <div class="col-md-12">
+            <div id="mdb-lightbox-ui"></div>
+        <div class="mdb-lightbox no-margin"> 
+            <figure class="col-md-4">
+               <a class="white-text" href="images/1.png" data-size="1600x1067">
+                <img class="img-fluid" src="images/1.png" alt="1" />  
+                <h4 class="text-center my-3 text-white">Photo Title </h4>
+            </a>
+            </figure>
+            <figure class="col-md-4">
+                <a class="white-text" href="images/2.png" data-size="1600x1067">
+                <img class="img-fluid" src="images/2.png" alt="2"/>
+                <h4 class="text-center my-3 text-white">Photo Title</h4>
+            </a>
+            </figure>
+            <figure class="col-md-4">
+                <a class="white-text" href="images/3.png" data-size="1600x1067">
+                <img class="img-fluid" src="images/3.png" alt="3"/>
+                <h4 class="text-center my-3 text-white">Photo Title</h4>
+                </a>
+            </figure>
+            <figure class="col-md-4">
+               <a class="white-text" href="images/4.png" data-size="1600x1067">
+                <img class="img-fluid" src="images/4.png" alt="4"/>
+                <h4 class="text-center my-3 text-white">Photo Title</h4>
+               </a>
+            </figure>
             <div class="col-12 col-sm-6 col-lg-3 mb-3">
                 <img class="w-100" src="images/thumbnail_Image%20(12).jpg?text=five" alt="image12" data-target="#carouselExample" data-slide-to="4" />
             </div>
@@ -63,9 +82,10 @@
             </div>
             <div class="col-12 col-sm-6 col-lg-3 mb-3">
                 <img class="w-100" src="images/thumbnail_Image.jpg?text=seven" alt="imageog" data-target="#carouselExample" data-slide-to="6"/>
+           </div>
             </div>
         </div>
-        
+                
         
 <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-hidden="true">
   <div class="modal-dialog" role="document">
@@ -78,7 +98,7 @@
      <div class="modal-body">
         
       <!-- Carousel markup goes here -->
-           <div id="BrianRileyProjects" class="carousel slide" data-ride="carousel">
+           <div id="BrianRileyProjects" class="mdb-lightbox no-margin" data-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
               <img class="d-block w-100" src="images/lamp.jpg" alt="lamp">
@@ -113,6 +133,8 @@
         </div>
       </div>
 
+        </div>
+        
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
       </div>
