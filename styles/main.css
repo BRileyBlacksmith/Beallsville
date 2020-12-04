@@ -8,6 +8,35 @@ ul.position-absolute {
     z-index:1;
 }
 
+.navbar .brand{
+    margin-left:200px !important;
+    margin-right:200px !important;
+}
+
+.navbar-inner{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.navbar-custom {
+    background-color: goldenrod;
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text{
+    color: whitesmoke;
+}
+
+nav a:hover{
+    color: whitesmoke!important;
+    background-color:#2D2C2B!important;
+}
+
+body { 
+    background: #2D2C2B !important;
+}
+
+
 #gallery img {
     height: 75vw;
     object-fit: cover;
@@ -26,11 +55,10 @@ ul.position-absolute {
 
 
 #AboutBrianRiley .carousel-caption {
-    top:10px;
-    background-color:rgba(255,255,255,0.5);
-   bottom:auto;
+    font-size: 15px;
+    top:auto;
+   bottom:30px;
 }
-
 
 
 @media (min-width:576px) {

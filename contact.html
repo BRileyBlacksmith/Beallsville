@@ -10,7 +10,7 @@
     </head>
 <body>
     <header>
-    <h1> Brian Riley Blacksmith From Monroe County</h1>
+    <h1 class="text-white pl-4 pr-4"> Brian Riley Blacksmith</h1>
     </header>
     <nav class="navbar navbar-expand-md navbar-light bg-light">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,7 +30,7 @@
                 </li>
                 <li class="nav-item">
                 <a class="nav-link" href="projects.html">
-                    Projects
+                    Shop
                     </a>
                 </li>
                 <li class="nav-item">
@@ -42,48 +42,47 @@
         </div>
     </nav>
     <main class="ml-3 mr-3">
-        <p>We'd love to hear from you! Please fill out the form below and let us know how we can help!</p>
+        <p class="text-white">We'd love to hear from you. Please fill out the form below and let us know how we can create something special just for you!</p>
         
         <form action="https://formspree.io/f/xoqpwdew" method="post">
           <div class="form-group row">
-            <label for="FirstName" class="col-md-2 col-form-label">First Name</label>
+            <label for="FirstName" class="col-md-2 col-form-label"> <p class="text-white"> First Name </p></label>
             <div class="col-md-10">
             <input type="text" name="FirstName" class="form-control" id="FirstName">
             </div>          
           </div>  
           <div class="form-group row">
-            <label class="col-md-2 col-form-label" for="LastName">Last Name</label>
+            <label class="col-md-2 col-form-label" for="LastName"><p class="text-white"> Last Name </p></label>
             <div class="col-md-10">
             <input type="text" name="LastName" class="form-control" id="LastName">
           </div>
           </div>
           <div class="form-group row">
-              <label class="col-md-2 col-form-label" for="txteMail">Email</label>           <div class="col-md-10">
+              <label class="col-md-2 col-form-label" for="txteMail"><p class="text-white">Email </p></label>           <div class="col-md-10">
                 <input type="text" name="eMail" class="form-control" id="txteMail">
               </div>   
           </div> 
           <div class="form-check">
             <input type="radio" name="preferredContact" value="email" class="form-check-input" id="radioeMail"> 
-              <label for="radioeMail" class="form-check-label"> I prefer eMail</label>
+              <label for="radioeMail" class="form-check-label"><p class="text-white"> I prefer Email </p></label>
           </div>
           <div class="form-group row">
-              <label class="col-md-2 col-form-label" for="txtPhone">Phone Number</label>           
+              <label class="col-md-2 col-form-label" for="txtPhone"><p class="text-white"> Phone Number </p></label>           
               <div class="col-md-10">
               <input type="text" name="PhoneNumber" class="form-control" id="txtPhone">
               </div>
           </div>  
           <div class="form-check">
             <input type="radio" name="preferredContact" value="email" class="form-check-input" id="radiophone">  
-            <label for="radiophone" class="form-check-label"> I prefer phone </label>
+            <label for="radiophone" class="form-check-label"> <p class="text-white">I prefer phone</p></label>
           </div>
           <div>
-          <p>How soon would you like your order to be processed?</p>
-               <input type="checkbox" name="urgency" value="asap">ASAP<br/>
-              <input type="checkbox" name="urgency" value="1week">One Week<br/>
-              <input type="checkbox" name="urgency" value="1month">One Month<br/>
+          <div class="form-group">
+              <label for="textdescription"> <p class="text-white">How soon would you like your order to be processed?</p></label>
+              <textarea name="description" id="textdescription" class="form-control"></textarea>  
           </div> 
           <div class="form-group">
-              <label for="selectentity">Where do you live?</label>
+              <label for="selectentity"><p class="text-white"> Where do you live?</p></label>
           
             <select name="entity" class="form-control" id="selectentity">
     
@@ -93,12 +92,12 @@
             </select>
           </div>        
           <div class="form-group">
-            <label for="textdescription"> Please describe in detail about the work you would like and/or modifications.</label>
+              <label for="textdescription"> <p class="text-white">Please describe in detail about the work you would like and/or modifications.</p></label>
               <textarea name="description" id="textdescription" class="form-control"></textarea>          
             
           </div>
          <div class="m-auto">
-            <button type="submit" class="btn-btn-primary">Send us an eMail!</button>         
+             <button type="submit" class="btn-btn-primary" >Send us an Email</button>         
                   
         </div>
             
@@ -108,7 +107,7 @@
 </main>
 <footer class="row">
     <div class="col-md-6">
-    <p class="text-center text-md-left pl-md-3">&copy; Trusted since 1989</p>
+    <p class="text-white" class="text-center text-md-left pl-md-3">&copy; Trusted since 1999</p>
     </div>
     <div class="col-md-6">
         <p class="text-center text-md-right pr-md-3"><a href="contact.html"> Contact us</a></p>
