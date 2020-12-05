@@ -12,77 +12,83 @@
     <header>
     <h1 class="text-white pl-4 pr-4"> Brian Riley Blacksmith</h1>
     </header>
-    <nav class="navbar navbar-expand-md navbar-light bg-light">
+    <div class="row">
+    <nav class="navbar-custom navbar-expand-md col-md-2 pl-5 pr-5">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon">&#9776;</span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
+            <ul class="nav flex-column mr-auto">
             <li class="nav-item">
-                <a class="nav-link" href="index.html">
-                Home
+                <a class="navbar-brand" href="index.html">
+                <h4>Home</h4>
                 </a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="about.html">
-                    About
+                <a class="navbar-brand" href="about.html">
+                   <h4>About</h4> 
                     </a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="projects.html">
-                    Shop
+                <a class="navbar-brand" href="projects.html">
+                  <h4>Shop</h4>  
                     </a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="contact.html">
-                    Contact
+                <a class="navbar-brand" href="contact.html">
+                  <h4>Contact</h4> 
                 </a>
                 </li>
             </ul>
         </div>
     </nav>
-    <main class="ml-3 mr-3">
-        <p class="text-white">We'd love to hear from you. Please fill out the form below and let us know how we can create something special just for you!</p>
+      
+    <main class="col-md-10">
+         <div class="row"> 
+        <div class="col-12 pl-5 pr-5">
+           <p class="text-white">We'd love to hear from you. Place your order by calling us at 012-345-6789 or filling out the form below. Please let us know how we can create something special just for you!</p>
         
         <form action="https://formspree.io/f/xoqpwdew" method="post">
           <div class="form-group row">
-            <label for="FirstName" class="col-md-2 col-form-label"> <p class="text-white"> First Name </p></label>
+            <label for="FirstName" class="col-md-2 col-form-label text-white">First Name</label>
             <div class="col-md-10">
             <input type="text" name="FirstName" class="form-control" id="FirstName">
             </div>          
           </div>  
           <div class="form-group row">
-            <label class="col-md-2 col-form-label" for="LastName"><p class="text-white"> Last Name </p></label>
+            <label class="col-md-2 col-form-label text-white" for="LastName">Last Name</label>
             <div class="col-md-10">
             <input type="text" name="LastName" class="form-control" id="LastName">
           </div>
           </div>
           <div class="form-group row">
-              <label class="col-md-2 col-form-label" for="txteMail"><p class="text-white">Email </p></label>           <div class="col-md-10">
+              <label class="col-md-2 col-form-label text-white" for="txteMail">Email</label>
+              <div class="col-md-10">
                 <input type="text" name="eMail" class="form-control" id="txteMail">
               </div>   
           </div> 
           <div class="form-check">
             <input type="radio" name="preferredContact" value="email" class="form-check-input" id="radioeMail"> 
-              <label for="radioeMail" class="form-check-label"><p class="text-white"> I prefer Email </p></label>
+              <label for="radioeMail" class="form-check-label text-white">I prefer Email</label>
           </div>
           <div class="form-group row">
-              <label class="col-md-2 col-form-label" for="txtPhone"><p class="text-white"> Phone Number </p></label>           
+              <label class="col-md-2 col-form-label text-white" for="txtPhone">Phone Number</label>           
               <div class="col-md-10">
               <input type="text" name="PhoneNumber" class="form-control" id="txtPhone">
               </div>
           </div>  
           <div class="form-check">
             <input type="radio" name="preferredContact" value="email" class="form-check-input" id="radiophone">  
-            <label for="radiophone" class="form-check-label"> <p class="text-white">I prefer phone</p></label>
+            <label for="radiophone" class="form-check-label text-white">I prefer phone</label>
           </div>
           <div>
           <div class="form-group">
-              <label for="textdescription"> <p class="text-white">How soon would you like your order to be processed?</p></label>
-              <textarea name="description" id="textdescription" class="form-control"></textarea>  
-          </div> 
+              <label for="textdescription1" class="text-white">How soon would you like your order to be processed?</label>
+              <textarea name="description1" id="textdescription1" class="form-control"></textarea>  
+          </div>
+            </div>
           <div class="form-group">
-              <label for="selectentity"><p class="text-white"> Where do you live?</p></label>
+              <label for="selectentity" class="text-white">Where do you live?</label>
           
             <select name="entity" class="form-control" id="selectentity">
     
@@ -92,22 +98,23 @@
             </select>
           </div>        
           <div class="form-group">
-              <label for="textdescription"> <p class="text-white">Please describe in detail about the work you would like and/or modifications.</p></label>
-              <textarea name="description" id="textdescription" class="form-control"></textarea>          
+              <label for="textdescription2" class="text-white">Please describe in detail about the work you would like and/or modifications.</label>
+              <textarea name="description2" id="textdescription2" class="form-control"></textarea>          
             
           </div>
          <div class="m-auto">
-             <button type="submit" class="btn-btn-primary" >Send us an Email</button>         
+             <button type="submit" class="btn-btn-primary" >Send us an Email</button> </div>        
                   
+                
+    </form> 
+     </div>
         </div>
-            
-    </form>
-        
-        
-</main>
+   </main>
+        </div>
+
 <footer class="row">
     <div class="col-md-6">
-    <p class="text-white" class="text-center text-md-left pl-md-3">&copy; Trusted since 1999</p>
+    <p class="text-white text-center text-md-left pl-md-3">&copy; Trusted since 1999</p>
     </div>
     <div class="col-md-6">
         <p class="text-center text-md-right pr-md-3"><a href="contact.html"> Contact us</a></p>
