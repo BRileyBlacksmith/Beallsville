@@ -55,11 +55,11 @@ body {
 
 #toTopBtn {
     position: fixed;
-    bottom: 26px;
-    right: 39px;
+    bottom: 50px;
+    right: 16px;
     z-index: 98;
     padding: 21px;
-    background-color: hsla(5, 76%, 62%, .8)
+    background-color: goldenrod;
 }
 
 .js .cd-top--fade-out {
