@@ -14,6 +14,11 @@ ul.position-absolute {
     height:auto;
 }
 
+h3{
+    margin-bottom: 30px;
+ }
+
+
 .navbar .brand{
     margin-left:200px !important;
     margin-right:200px !important;
@@ -32,7 +37,7 @@ nav button{
 }
 
 .navbar-custom {
-    background-color: goldenrod;
+    background-color: #336600;
 }
 
 .navbar-toggler {
@@ -50,6 +55,33 @@ nav a:hover{
     background-color:#2D2C2B!important;
 }
 
+.dropdown {
+    position: relative;
+    display: inline-block;
+     
+}
+
+ .dropdown-toggle {
+  background-color: #336600;
+color: whitesmoke;!important;
+     padding-left:0;
+     padding-right:0;
+    margin-left:0px;
+    margin-right:0px;     
+font-size: 25px;
+     font-weight: 500;
+}
+
+
+.dropdown-menu{
+  background-color: #428000;
+     font-weight: 500;
+    font-size: 20px;
+}
+
+.dropdown-menu>li>a{
+  color: whitesmoke;
+}
 body { 
     background: #2D2C2B !important;
 }
@@ -65,7 +97,7 @@ body {
     right: 16px;
     z-index: 98;
     padding: 21px;
-    background-color: goldenrod;
+    background-color: #336600;
 }
 
 .js .cd-top--fade-out {
